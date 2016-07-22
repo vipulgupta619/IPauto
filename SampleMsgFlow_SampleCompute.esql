@@ -20,6 +20,6 @@ CREATE COMPUTE MODULE SampleMsgFlow_SampleCompute
 
 	CREATE PROCEDURE CopyEntireMessage() BEGIN
 		SET OutputRoot = InputRoot;
-		--SET OutputRoot.Name = (InputRoot.XMLNSC.EmployeeDetails.FirstName)||(InputRoot.XMLNSC.EmployeeDetails.LastName);
+		-- SET OutputRoot.Name = (InputRoot.XMLNSC.EmployeeDetails.FirstName)||(InputRoot.XMLNSC.EmployeeDetails.LastName);
 	END;
 END MODULE;
